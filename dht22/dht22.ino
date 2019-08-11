@@ -13,9 +13,11 @@ WidgetLED FAN(V0);
 #define READ_AIR_DATA_TM  1L  
 #define SEND_UP_DATA_TM   1L 
 #define AUTO_CTRL_TM      1L 
-char auth[] = "8555d69300fc404bbb402e49c5cb0189";
-char ssid[] = "106F3FF460AC";
-char pass[] = "vt20160930";
+
+char auth[] = "Auth Token Blynk";
+char ssid[] = "wifi name ";
+char pass[] = "wifi pass";
+
 float humDHT = 0;
 float tempDHT = 0;
 boolean fanStatus = 0;
